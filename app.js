@@ -125,3 +125,28 @@ let concatOne = "Hi I'm a string, and I have a new form of concatenation in ES6!
 let concatTwo ="Oh really...? What's that! Oh wait, I did it.";
 console.log(`${concatOne} ${concatTwo}`);
 
+//Object.assign
+const objectA = {
+	name: "Michael",
+	location: "Seattle"
+};
+
+const objectB = {
+	food: "Apples",
+	color: "Red",
+	Age: 23
+};
+
+console.log(Object.assign({}, objectA, objectB));
+
+/*Output for object.assign
+
+[object Object] {
+  Age: 23,
+  color: "Red",
+  food: "Apples",
+  location: "Seattle",
+  name: "Michael"
+}
+
+*/ 
