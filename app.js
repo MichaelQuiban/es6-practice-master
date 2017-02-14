@@ -76,5 +76,40 @@ var colors = [
 	"Red",
 	"Blue",
 	"Green",
-	"Purple",
-]
+	"Purple"
+];
+
+//No parameters
+colors.forEach(() => console.log('Color');
+
+//When one parameter
+colors.forEach(item => console.log(item));
+
+//One or more parameters
+colors.forEach((item, index) => console.log( 'Index ' + index + ' is: ' + colors));
+
+
+//ES6 Spread
+
+//Calculate Volume
+function calcVolume(width, height, depth) {
+  return width * height * depth;
+}
+
+let values = [10, 20, 30];
+console.log(calcVolume(...values));
+
+//Add Numbers
+function addNumbers(a, b) {
+  return a + b;
+}
+
+let addition = [20, 30];
+console.log(addNumbers(...addition));
+
+function multiplyNumbers(c, d) {
+  return c * d;
+}
+
+multiply = [30, 50];
+console.log(multiplyNumbers(...multiply));
