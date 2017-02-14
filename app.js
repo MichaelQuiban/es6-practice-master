@@ -150,3 +150,16 @@ console.log(Object.assign({}, objectA, objectB));
 }
 
 */ 
+
+//Property value shorthand
+const a = 1;
+const b = 2;
+const object = {a , b};
+console.log(object);
+
+/*Output
+const a = 1;
+const b = 2;
+const object = {a , b};
+console.log(object);
+*/
