@@ -107,9 +107,21 @@ function addNumbers(a, b) {
 let addition = [20, 30];
 console.log(addNumbers(...addition));
 
+//Multiply Numbers
 function multiplyNumbers(c, d) {
   return c * d;
 }
 
 multiply = [30, 50];
 console.log(multiplyNumbers(...multiply));
+
+//Template literals
+let firstName = "Michael";
+let lastName = "Smith";
+
+console.log(`My name is ${firstName} and my last name is ${lastName}`);
+
+let concatOne = "Hi I'm a string, and I have a new form of concatenation in ES6!";
+let concatTwo ="Oh really...? What's that! Oh wait, I did it.";
+console.log(`${concatOne} ${concatTwo}`);
+
